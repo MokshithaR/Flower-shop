@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Petal Paradise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5;
+        }
+        header {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .flower-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            width: 80%;
+            max-width: 1200px;
+            margin-top: 20px;
+        }
+        .flower {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .flower img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .flower h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #d63384;
+            color: white;
+            margin-top: 40px;
+        }
+        #home {
+            background-image: url('https://pub-static.fotor.com/assets/bg/49048260-583c-4945-a120-1df8c88e28ed.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        #home h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        #home p {
+            font-size: 1.2em;
+        }
+        #contact-info {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            margin-top: 20px;
+        }
+        #contact-info p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Petal Paradise</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#flowers">Flowers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        
+        <a href="#flowers" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #d63384; color: white; text-decoration: none; border-radius: 5px;">Explore Our Flowers</a>
+    </section>
+
+    <section id="flowers">
+        <h2>Our Popular Flowers</h2>
+        <div class="flower-grid">
+            <div class="flower">
+                <img src="https://m.media-amazon.com/images/I/61lDiPI70RL._SL1000_.jpg" alt="Roses"> <h3>Roses</h3>
+                <p>Timeless symbol of love and beauty.</p>
+                <p>Price: &#8377 97 per dozen</p>
+                <button style="padding: 8px 15px; background-color: #ff69b4; color: white; border: none; border-radius: 4px; cursor: pointer;">Add to Cart</button>
+            </div>
+
+            <div class="flower">
+                <img src="https://s1.1zoom.me/big3/758/369263-svetik.jpg" alt="Tulips"> <h3>Tulips</h3>
+                <p>Elegant and cheerful, perfect for any occasion.</p>
+                <p>Price: &#8377 190 per dozen</p>
+                <button style="padding: 8px 15px; background-color: #ff69b4; color: white; border: none; border-radius: 4px; cursor: pointer;">Add to Cart</button>
+            </div>
+
+            <div class="flower">
+                <img src="https://www.jennyburtt.co.nz/wp-content/uploads/2018/06/White-Lily-Bouquet.jpg" alt="Lilies"> <h3>Lilies</h3>
+                <p>Stunning and fragrant, adding grace to any setting.</p>
+                <p>Price: &#8377 99 per dozen</p>
+                <button style="padding: 8px 15px; background-color: #ff69b4; color: white; border: none; border-radius: 4px; cursor: pointer;">Add to Cart</button>
+            </div>
+
+            <div class="flower">
+                <img src="http://www.lovethispic.com/uploaded_images/83509-Beautiful-Sunflower-Bouquet.jpeg" alt="Sunflowers"> <h3>Sunflowers</h3>
+                <p>Bright and joyful, bringing sunshine into your life.</p>
+                <p>Price: &#8377 40 per stem</p>
+                <button style="padding: 8px 15px; background-color: #ff69b4; color: white; border: none; border-radius: 4px; cursor: pointer;">Add to Cart</button>
+            </div>
+
+            <div class="flower">
+                <img src="https://assets.flowersnfruits.com/uploads/product-pics/1687354399_12797.png" alt="Orchids"> <h3>Orchids</h3>
+                <p>Exotic and sophisticated, a symbol of luxury.</p>
+                <p>Price: &#8377 121 per stem</p>
+                <button style="padding: 8px 15px; background-color: #ff69b4; color: white; border: none; border-radius: 4px; cursor: pointer;">Add to Cart</button>
+            </div>
+
+            <div class="flower">
+                <img src="https://flowersdecorbysean.com/pub/media/catalog/product/cache/e189a927369aa55a417681bda2181a69/c/a/carnation_bouquet_1_4.jpg" alt="Carnations"> <h3>Carnations</h3>
+                <p>Versatile and colorful, expressing different emotions.</p>
+                <p>Price: &#8377 253 per dozen</p>
+                <button style="padding: 8px 15px; background-color: #ff69b4; color: white; border: none; border-radius: 4px; cursor: pointer;">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div id="contact-info">
+            <p>Email: <a href="mailto:contact@petalparadise.com">contact@petalparadise.com</a></p>
+            <p>Phone: +91 9876543210</p>
+            <p>Visit us at: 123 Flower Street, Chennai, Tamil Nadu, India</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Petal Paradise. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
